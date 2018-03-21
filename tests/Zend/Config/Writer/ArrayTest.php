@@ -20,15 +20,6 @@
  * @version    $Id$
  */
 
-/**
- * Zend_Config
- */
-require_once 'Zend/Config.php';
-
-/**
- * Zend_Config_Writer_Array
- */
-require_once 'Zend/Config/Writer/Array.php';
 
 /**
  * @category   Zend

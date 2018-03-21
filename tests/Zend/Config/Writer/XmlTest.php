@@ -20,20 +20,6 @@
  * @version    $Id$
  */
 
-/**
- * Zend_Config
- */
-require_once 'Zend/Config.php';
-
-/**
- * Zend_Config_Xml
- */
-require_once 'Zend/Config/Xml.php';
-
-/**
- * Zend_Config_Writer_Xml
- */
-require_once 'Zend/Config/Writer/Xml.php';
 
 /**
  * @category   Zend
@@ -172,6 +158,11 @@ class Zend_Config_Writer_XmlTest extends PHPUnit\Framework\TestCase
                 )
             )
         )));
+
+        $config = new Zend_Config_Xml($this->_tempName, null);
+
+        $this->assertEquals('Matthew', $config->notification->adress->{0}->name);
+        $this->assertEquals('Thomas', $config->notification->adress->{1}->name);
     }
 
     public function testNumericArray()

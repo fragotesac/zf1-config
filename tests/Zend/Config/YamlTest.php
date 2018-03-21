@@ -20,10 +20,6 @@
  * @version    $Id: IniTest.php 18950 2009-11-12 15:37:56Z alexander $
  */
 
-/**
- * Zend_Config_Ini
- */
-require_once 'Zend/Config/Yaml.php';
 
 /**
  * @category   Zend

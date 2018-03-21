@@ -20,10 +20,6 @@
  * @version    $Id$
  */
 
-/**
- * Zend_Config_Xml
- */
-require_once 'Zend/Config/Xml.php';
 
 /**
  * @category   Zend

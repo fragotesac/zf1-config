@@ -20,10 +20,6 @@
  * @version    $Id$
  */
 
-/**
- * Zend_Config_Json
- */
-require_once 'Zend/Config/Json.php';
 
 /**
  * @category   Zend

@@ -20,10 +20,6 @@
  * @version    $Id$
  */
 
-/**
- * Zend_Config_Ini
- */
-require_once 'Zend/Config/Ini.php';
 
 /**
  * @category   Zend
