@@ -11,8 +11,8 @@
     "prefer-stable": true,
     "require": {
         "php": "~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0",
-        "diablomedia/zendframework1-exception": "^1.1.1",
-        "diablomedia/zendframework1-json": "^1.0.7"
+        "fragotesac/zf1-exception": "^1.1.1",
+        "fragotesac/zf1-json": "^1.0.7"
     },
     "autoload": {
         "psr-0": {
@@ -48,7 +48,7 @@
     "suggest": {
         "ext-SimpleXML": "Used for reading/writing XML config files",
         "ext-dom": "Used for reading/writing XML config files",
-        "diablomedia/zendframework1-xml": "Required if reading/writing XML config files"
+        "fragotesac/zf1-xml": "Required if reading/writing XML config files"
     },
     "config": {
         "allow-plugins": {
